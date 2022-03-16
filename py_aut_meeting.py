@@ -28,7 +28,7 @@ call_item.duration = 600 #1.5 hours
 call_item.MeetingStatus = 1
 #finally let's add some recipients
 # required = call_item.Recipients.add("Exelon.IT.SPP.CSS.Offshore@accenture.com")
-required = call_item.Recipients.add("jamester.c.go@accenture.com")
+required = call_item.Recipients.add("Exelon.IT.SPP.CSS.Offshore@accenture.com")
 required.Type = 1
 optional = call_item.Recipients.add("jamester.c.go@accenture.com")
 optional.Type = 2
